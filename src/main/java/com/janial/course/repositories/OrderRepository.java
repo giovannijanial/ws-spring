@@ -1,11 +1,11 @@
 package com.janial.course.repositories;
 
-import com.janial.course.entities.User;
+import com.janial.course.entities.Order;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User,Long> {
+public interface OrderRepository extends JpaRepository<Order,Long> {
     
 }
